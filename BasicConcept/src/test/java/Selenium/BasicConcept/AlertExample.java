@@ -21,7 +21,7 @@ public class AlertExample {
 		driver.findElement(By.xpath("//input[@id='user_submit1']")).click();
 		driver.findElement(By.xpath("//input[@id='user_submit2']")).click();
 		 
-
+		System.out.print("Trying to make conflicy");
 
 	}
 

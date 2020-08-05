@@ -18,11 +18,7 @@ public class AlertExample {
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("//input[@id='user_submit']")).click(); 
 		System.out.println("user made some changes");
-		System.out.println("user 2 made some changes");
-		Thread.sleep(2000);
-
-
-
+	
 	}
 
 }

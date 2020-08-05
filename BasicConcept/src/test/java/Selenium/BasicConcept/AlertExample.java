@@ -16,7 +16,9 @@ public class AlertExample {
 		driver.findElement(By.xpath("//input[@id='user_email_login']")).sendKeys("ashwi@gmail.com");
 		driver.findElement(By.xpath("//input[@id='user_password']")).sendKeys("cbdsffDFv");
 		Thread.sleep(4000);
-		driver.findElement(By.xpath("//input[@id='user_submit']")).click();
+		driver.findElement(By.xpath("//input[@id='user_submit']")).click(); 
+		Thread.sleep(4000);
+
 		 
 
 
